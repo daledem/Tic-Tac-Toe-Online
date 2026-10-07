@@ -1,12 +1,10 @@
 # Tic-Tac-Toe Online
 
-[[_TOC_]]
-
-## 📖 About
+## About
 
 A small Java project built for the purpose of **learning socket programming** and gaining a better understanding of how computer networks work. This is not a production-ready application — it is a hands-on educational exercise that explores TCP sockets, client-server communication, and concurrent connection handling.
 
-## 🧱 Architecture
+## Architecture
 
 The application follows a classic **client-server model** using TCP sockets.
 
@@ -29,7 +27,7 @@ The client is a Java Swing GUI application. The main entry point (`Cliente.java`
 
 The client communicates with the server over TCP, sending text commands and reading responses to drive the GUI state.
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Tic-Tac-Toe-Online/
@@ -51,7 +49,7 @@ Tic-Tac-Toe-Online/
         └── xml/                     # User data storage (XML)
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 
@@ -88,7 +86,7 @@ Tic-Tac-Toe-Online/
 
 > **Note:** The GUI was built with the IntelliJ Swing GUI Designer. If you run the client from a different environment (e.g., Eclipse, VS Code), the window layout may not render correctly.
 
-## 🎓 What You Can Learn
+## What You Can Learn
 
 This project is a practical playground for several core networking and concurrency concepts:
 
@@ -99,7 +97,7 @@ This project is a practical playground for several core networking and concurren
 - **Basic persistence** — Storing and retrieving user data (usernames, passwords, ELO ratings) in XML files on the server side.
 - **Swing GUI + networking** — Integrating a desktop GUI client with a remote server.
 
-## ⚠️ Limitations
+## Limitations
 
 This is a learning project, not a polished product. Some known limitations include:
 
@@ -108,6 +106,6 @@ This is a learning project, not a polished product. Some known limitations inclu
 - The GUI relies on IntelliJ’s Swing Designer and may not work correctly in other IDEs.
 - Error handling is minimal — the focus is on understanding the mechanics, not on robustness.
 
-## 📄 License
+## License
 
 This project has no explicit license. It was created as a personal learning exercise.
